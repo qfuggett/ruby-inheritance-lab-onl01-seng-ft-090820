@@ -3,7 +3,7 @@ class Student < User
 
   @@knowledge = [ ]
 
-  def initialize(first_name, last_name)
+  def initialize(knowledge)
     @knowledge = knowledge
     @knowledge << self
   end
